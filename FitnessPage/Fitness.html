@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fitness Information</title>
+    <link rel="stylesheet" type="text/css" href="Fitness.css">
+    <script src="Fitness.js"></script>
+</head>
+
+<body>
+
+    <nav class="header">
+        <u1>
+            <li><a class="home" href="#top">Home </a></li>
+            <li><a class="pagelink" href="#BMI Rechner">BMI Rechner</a></li>
+            <li><a class="pagelink" href="#Trainings Split">Trainings Splits</a></li>
+            <li><a class="pagelink" href="#Übungen Für Jeweiligen Split">Übungen für Jeweiligen Split</a></li>
+            <li><a class="pagelink" href="#Ernährung">Ernährung</a></li>
+        </u1>
+    </nav>
+
+    <div class="banner" id="BMI Rechner">
+
+        <h1>BMI Berechnung</h1>
+
+        <form>
+            <label for="height">Height:</label><br>
+            <input type="number" id="height" name="height"><br>
+            <br>
+            <label for="weight">Weight:</label><br>
+            <input type="number" id="weight" name="weight"><br>
+            <br>
+            <input type="button" onclick="berechne_bmi()" Value="Multiply"/>
+        </form>
+
+        <p>The Result is: <br>
+        <span id = "result"></span>
+        </p>
+    </div> 
+
+    <div class="main_stuff" id="#Trainings Splits">
+        
+        <h1>Training in Splits</h1>
+
+        <p>Um Ein gutes Training zu erreichen ist oftmals viel Plaunung Notwendig,
+            ein guter Schritt in richtung gutes Training ist hierbei, das Training in
+             verschiedene Muskelgruppen zu trennen.<br>
+            Dabei reden wir meistens von dreier bis vierer Splits.<br> 
+            Meistens werden diese in<br>
+            Push<br>
+            Pull<br>
+            Beine<br>
+            Bauch<br> 
+        </p>
+    </div>
+</body>
+
+
+
+
+
+
+</html>

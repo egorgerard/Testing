@@ -1,0 +1,75 @@
+/* Schriftart und größe ändern */
+html{
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+}
+
+/* Hintergrundfarbe ändern */
+body{
+    background-color: #ffffff;
+}
+
+/* Überschrift h1 farblich und größlich ändern */
+h1 {
+    color: rgb(37, 136, 175);
+    font-size: 50px;
+}
+
+/* kp */
+p {
+   margin: 16px 0;
+}
+
+/* kp */
+strong {
+    font-weight: bold;
+}
+
+/**********/
+/* HEADER */
+/**********/
+
+/* Settings für die Obere Leiste */
+.header {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 1.25;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    
+}
+
+/* Mach die Listenpunkte so horizontal*/
+.header li {
+    display: inline-block;
+}
+  
+.header a {
+    display: block;
+    color: #4A4A4A;
+    padding: 30px 20px;
+}
+  
+a.home {
+    color: #4D00FF;
+}
+
+  /* Banner Section */
+  
+.banner {
+    background-color: #993467;
+    padding: 100px 0;
+    margin-top: 100px;
+    text-align: center;
+}
+  
+.banner p {
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    color: #000000;
+}
+
+
+  
